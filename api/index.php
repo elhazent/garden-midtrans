@@ -44,6 +44,6 @@ function chargeApi($api_url,$server_key,$request_body){
         'body' => curl_exec($ch),
         'http_code' => curl_getinfo($sc,CURLINFO_HTTP_CODE)
      );
-    return $r esult;
+    return $result;
 }
 ?>
